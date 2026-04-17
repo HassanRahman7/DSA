@@ -30,14 +30,14 @@ public class upperboundmeth2
             {
                 mid=(lo+hi)/2;
                 if(arr[mid]<x)
-                lo=mid+1;
+                    lo=mid+1;
                 else if(arr[mid]>x)
                 {
                     hi=mid-1;
                     lb=Math.min(lb,mid);
                 }
                 else 
-                lo=mid+1;
+                    lo=mid+1;
             }
             System.out.println(lb);   
         }

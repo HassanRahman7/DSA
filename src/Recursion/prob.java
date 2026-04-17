@@ -7,7 +7,7 @@ public class prob
     public static void print(int arr[],int n) 
     {
         if(n==arr.length)
-        return;
+            return;
         else
         {
             System.out.println(arr[n++]);

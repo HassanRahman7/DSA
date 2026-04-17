@@ -13,7 +13,7 @@ public class duplicate
         System.out.println("Enter elements in the array:");
         int arr[]=new int[n];
         for(i=0;i<n;i++)
-        arr[i]=sc.nextInt();
+            arr[i]=sc.nextInt();
         for(i=0;i<n;i++)
         {
             for(j=i+1;j<n;j++)

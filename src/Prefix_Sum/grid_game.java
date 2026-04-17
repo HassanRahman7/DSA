@@ -5,7 +5,7 @@ public class grid_game
     public static long gridGame(int[][] grid)
     {
         long first_row_sum=0;
-        int i=0;
+        int i;
         for(i=0;i<grid[0].length;i++)
             first_row_sum=first_row_sum+(long)grid[0][i];
         long second_row_sum=0;

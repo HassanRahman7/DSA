@@ -40,9 +40,9 @@ public class lowerboundofx
                     while(j>=0)
                     {
                         if(arr[j]==x)
-                        j--;
+                            j--;
                         else 
-                        break;
+                            break;
                     }
                     System.out.println(j+1);
                     System.exit(0);

@@ -34,7 +34,7 @@ public class lowerboundmeth2
                 else if(arr[mid]>=x)
                 {
                     hi=mid-1;
-                    lb=Math.min(lb,mid);
+                    lb=(int)Math.min(lb,mid);
                 }
             }
             System.out.println(lb);   
