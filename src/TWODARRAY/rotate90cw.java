@@ -3,7 +3,7 @@ package TWODARRAY;
 import java.util.Scanner;
 
 public class rotate90cw 
-{
+{ // for rotation by 90deg simply transpose and reverse the matrix.
     public static void main(String[] args) 
     {
         Scanner sc=new Scanner(System.in);
@@ -26,7 +26,7 @@ public class rotate90cw
             for(j=c;j<n;j++)
             {
                 if(i==j)
-                continue;
+                    continue;
                 else
                 {
                     temp=arr[i][j];
@@ -35,7 +35,7 @@ public class rotate90cw
                 }
             }
             if(j==n)
-            c++;
+                c++;
         }
         for(i=0;i<m;i++)
         {

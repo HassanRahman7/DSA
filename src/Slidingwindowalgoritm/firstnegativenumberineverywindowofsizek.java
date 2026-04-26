@@ -14,7 +14,7 @@ public class firstnegativenumberineverywindowofsizek
         int d,c=0,k,i,j,r=0;
         System.out.println("Enter the elements in the array:");
         for(i=0;i<n;i++)
-        arr[i]=sc.nextInt();
+            arr[i]=sc.nextInt();
         System.out.println("Enter the value of K:");
         k=sc.nextInt();
         int brr[]=new int [n+1];
@@ -34,19 +34,15 @@ public class firstnegativenumberineverywindowofsizek
                 d++;
             }
             if(r==0)
-            brr[c++]=0;
+                brr[c++]=0;
             i++;
             j++;
             r=0;
-
-
         }
         int crr[]=new int[c];
         for(i=0;i<c;i++)
-        crr[i]=brr[i];
+            crr[i]=brr[i];
         for(i=0;i<c;i++)
-        System.out.println(crr[i]);
-        
+            System.out.println(crr[i]);
     }
-    
 }

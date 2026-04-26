@@ -52,6 +52,5 @@ public class leetcode2201
     {
         int n=2, artifacts[][]={{0,0,0,0},{0,1,1,1}},dig[][]={{0,0},{0,1}};
         System.out.println(digArtifacts(n,artifacts,dig));
-
     }
 }

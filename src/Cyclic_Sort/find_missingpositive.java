@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class find_missingpositive 
 {
+    //https://leetcode.com/problems/first-missing-positive/
     public static void swap(int arr[],int i,int j) 
     {
         int temp;
@@ -31,11 +32,11 @@ public class find_missingpositive
         while(i!=arr.length)
         {
             if(arr[i]==i+1)
-            i++;
+                i++;
             else if(arr[i]<=0)
-            return i+1;
+                return i+1;
             else 
-            return i+1;
+                return i+1;
         }
         return i+1;
     }

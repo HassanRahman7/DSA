@@ -8,13 +8,13 @@ public class setelemzerometh2
     {
         int j;
         for(j=0;j<n;j++)
-        arr[i][j]=0;
+            arr[i][j]=0;
     }
     public static void colzero(int arr[][],int j,int m) 
     {
         int i;
         for(i=0;i<m;i++)
-        arr[i][j]=0;
+            arr[i][j]=0;
     }
     public static void main(String[] args) 
     {
@@ -49,12 +49,12 @@ public class setelemzerometh2
         for(i=0;i<m;i++)
         {
             if(row[i]==true)
-            rowzero(arr, i, n);
+                rowzero(arr, i, n);
         }
         for(j=0;j<n;j++)
         {
             if(col[j]==true)
-            colzero(arr, j, m);
+                colzero(arr, j, m);
         }
         System.out.println("Printing the modified array:");
         for(i=0;i<m;i++)

@@ -23,9 +23,7 @@ public class leetcode443
             else if(arr[i]==i+1)
                 i++;
             else
-            {
                 swap(arr,i,arr[i]-1); 
-            }
         }
         i=0;
         List<Integer> l=new ArrayList<>();

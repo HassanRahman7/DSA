@@ -16,7 +16,7 @@ public class leetcode414
         for(int ele:set)
             pq.add(ele);
         if(set.size()<3)
-        return pq.remove();
+            return pq.remove();
         ans=pq.remove();
         ans=pq.remove();
         ans=pq.remove();

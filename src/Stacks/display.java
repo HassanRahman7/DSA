@@ -5,7 +5,7 @@ public class display
     public static void displayrecreverse(Stack<Integer> st)
     {
         if(st.size()==0)
-        return;
+            return;
         int top=st.pop();
         System.out.print(top+" ");
         displayrecreverse(st);

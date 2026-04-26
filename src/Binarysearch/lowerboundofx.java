@@ -16,11 +16,12 @@ public class lowerboundofx
         arr[i]=sc.nextInt();
         //int arr[]={10,20,30,30,40,50,60,70};
         System.out.println("Enter the value of x");
+        // target =30
         x=sc.nextInt();
         if(x<arr[0])
-        System.out.println(0);
+            System.out.println(0);
         else if(x>arr[n-1])
-        System.out.println(n);
+            System.out.println(n);
         else
         {
             int hi,lo,mid=0;
@@ -30,9 +31,9 @@ public class lowerboundofx
             {
                 mid=(lo+hi)/2;
                 if(arr[mid]<x)
-                lo=mid+1;
+                    lo=mid+1;
                 else if(arr[mid]>x)
-                hi=mid-1;
+                    hi=mid-1;
                 else if(arr[mid]==x)
                 {
                     int j;

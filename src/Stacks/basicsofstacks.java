@@ -15,7 +15,7 @@ public class basicsofstacks
         st.push(34);
         //peek
         System.out.println(st.peek());
-        System.err.println(st);
+        System.out.println(st);
         st.pop();
         System.out.println(st);
         st.pop();

@@ -20,7 +20,7 @@ public class nextgreaterelement
             }
         }
         for(i=0;i<arr.length;i++)
-        System.out.print(res[i]+" ");
+            System.out.print(res[i]+" ");
     }
     
 }

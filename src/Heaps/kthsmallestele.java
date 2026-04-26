@@ -11,7 +11,7 @@ public class kthsmallestele
         {
             pq.add(arr[i++]);
             if(pq.size()>k)
-            pq.remove();
+                pq.remove();
         }
         return pq.peek();
     }

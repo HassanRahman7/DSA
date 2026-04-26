@@ -15,9 +15,9 @@ public class missing_Number
         for(i=0;i<check.length;i++)
         {
             if(check[i]==true)
-            continue;
+                continue;
             else
-            return i;
+                return i;
         }
         return 2;
     }

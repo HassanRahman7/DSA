@@ -31,7 +31,7 @@ public class spiral
                 c++;
             }
             if(c>=m*n)
-            break;
+                break;
             minr++;
             for(i=minr;i<=maxr;i++)
             {
@@ -39,7 +39,7 @@ public class spiral
                 c++;
             }
             if(c>=m*n)
-            break;
+                break;
             maxc--;
             for(i=maxc;i>=minc;i--)
             {
@@ -47,7 +47,7 @@ public class spiral
                 c++;
             }
             if(c>=m*n)
-            break;
+                break;
             maxr--;
             for(i=maxr;i>=minr;i--)
             {
